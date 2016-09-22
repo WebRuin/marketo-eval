@@ -1,0 +1,15 @@
+// GLOGAL VARIABLES
+$base                     : #F7F6F0;
+$darken                   : darken(#F7F6F0 , 30%);
+$back                     : darken(#F7F6F0, 40%);
+$tranpatent               : transparent;
+
+// HEADER VARIABLES
+$nav-background           : #262729;
+$nav-search-box           : #717580;
+$header-tranpatent        : rgba(255,255,255,0.7);
+$menu-highlight           : #00cc99;
+$mind-box-color           : rgba(52,180,147,0.85);
+$menu-text                : #fff;
+$menu-grid-select         : $nav-background;
+$menu-grid-select-active  : $menu-text;
