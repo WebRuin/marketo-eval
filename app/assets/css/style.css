@@ -552,6 +552,12 @@ html, body {
   background-color: #fff;
   width: 60vw;
   margin: 2rem auto; }
+  .main .more {
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center; }
   .main .post {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -590,6 +596,19 @@ html, body {
       .main .post .post-right a {
         color: #bbb;
         text-decoration: none; }
+
+footer nav {
+  width: 60vw;
+  margin: 3rem auto; }
+  footer nav ul li {
+    font-size: 1.1rem;
+    padding: 1rem;
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase; }
+    footer nav ul li a {
+      color: #00cc99;
+      text-decoration: none; }
 
 @font-face {
   font-family: 'Font-Name';
