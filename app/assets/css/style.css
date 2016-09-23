@@ -544,6 +544,53 @@ textarea {
 .nav ul {
   list-style: none; }
 
+html, body {
+  background-color: #fff;
+  overflow: auto !important; }
+
+.main {
+  background-color: #fff;
+  width: 60vw;
+  margin: 2rem auto; }
+  .main .post {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin: 1rem;
+    position: relative;
+    overflow: hidden; }
+    .main .post img {
+      width: 100%; }
+    .main .post .post-icons {
+      position: absolute;
+      width: 100px;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      top: 1rem;
+      right: -1rem; }
+      .main .post .post-icons i {
+        margin: 0.5rem;
+        display: inline-block; }
+      .main .post .post-icons p {
+        padding: 0;
+        margin: 0 0.5rem; }
+    .main .post .post-left {
+      padding: 1rem; }
+    .main .post .post-right {
+      padding: 1rem; }
+      .main .post .post-right h3, .main .post .post-right p {
+        margin: 0;
+        margin-bottom: 0.25rem; }
+      .main .post .post-right a {
+        color: #bbb;
+        text-decoration: none; }
+
 @font-face {
   font-family: 'Font-Name';
   src: url("../fonts/font-name.eot");

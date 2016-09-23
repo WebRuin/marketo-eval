@@ -1,3 +1,61 @@
+html, body {
+  background-color: #fff;
+  overflow: auto !important;
+}
+
 .main {
+  background-color: #fff;
+  width: 60vw;
+  margin: 2rem auto;
+
+  .post {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+
+    .post-icons {
+      position: absolute;
+      width: 100px;
+      display: flex;
+      top: 1rem;
+      right: -1rem;
+
+      i {
+        margin: 0.5rem;
+        display: inline-block;
+      }
+
+      p {
+        padding: 0;
+        margin: 0 0.5rem;
+      }
+    }
+
+    .post-left {
+      padding: 1rem;
+    }
+
+    .post-right {
+      padding: 1rem;
+
+      h3, p {
+        margin: 0;
+        margin-bottom: 0.25rem;
+      }
+
+      a {
+        color: #bbb;
+        text-decoration: none
+      }
+    }
+  }
 
 }
